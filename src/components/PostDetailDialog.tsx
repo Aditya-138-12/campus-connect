@@ -17,7 +17,7 @@ import { toast } from 'sonner';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
 
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://campus-connect-production-b551.up.railway.app/api";
 
 interface PostDetailDialogProps {
   post: RealPost | null;

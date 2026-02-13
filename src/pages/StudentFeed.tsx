@@ -20,7 +20,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { isAuthenticated } from './auth';
 import { PostDetailDialog } from '@/components/PostDetailDialog';
 
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://campus-connect-production-b551.up.railway.app/api";
 
 type SortOption = 'trending' | 'latest';
 
